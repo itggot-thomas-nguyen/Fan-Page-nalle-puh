@@ -1,0 +1,71 @@
+body{
+    height: 100vh;
+    width:100vw;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 250px, auto, 250px;
+    grid-template-rows: auto;
+    background-color:white;
+    background-image: url("../img/nallepuhfinbild.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+}
+
+.wrapper{
+    height: 100%;
+    width: 100%;
+}
+.maintoolbar{
+    display: flex;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 50px;
+    border: 2.2px solid darkblue;
+}
+
+.toolbar1{
+    height: 50px;
+    width: 100%;
+    background-image: url("C:/Users/thomas.nguyen/Documents/programmering/Dev/Fan Page nalle puh/img/Webp.net-resizeimage.jpg");
+    text-align: center;
+    border: 1.5px solid darkblue;
+    font-family: fantasy;
+    
+}
+.toolbar2{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(2, 219, 219);
+    text-align: center;
+    border: 1.5px solid darkblue;
+    font-family: fantasy;
+}
+.toolbar3{
+    height: 50px;
+    width: 100%;
+    background-color: rgb(2, 219, 219);
+    text-align: center;
+    border: 1.5px solid darkblue;
+    font-family: fantasy;
+
+}
+
+.header{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    background: rgba(248, 248, 248, 0.6);
+    padding:0px;
+    column-span: all;
+    font-family: cursive;
+
+}
+.textbox{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    opacity: 1;
+    padding:0px;
+    font-family: cursive;
+
+}
